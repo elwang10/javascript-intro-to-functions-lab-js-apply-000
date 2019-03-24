@@ -16,7 +16,7 @@ function logShout(string) {
 //const spy = console.log(string1)
 }
 
-console.log(logShout('hello'))
+console.log(logShout(spy))
 
 
 
