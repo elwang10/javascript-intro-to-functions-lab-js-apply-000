@@ -10,8 +10,8 @@ function whisper(string)  {
 
 function logShout(string) {
   string = string.toUpperCase()
+  const spy = console.log(string)
 }
-const spy = console.log(logShout("hello"))
 
 //console.log(logShout(spy))
 
