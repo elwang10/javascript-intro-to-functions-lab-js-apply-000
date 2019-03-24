@@ -14,7 +14,7 @@ const spy = "hello"
 function logShout(string) {
   //string = string.toUpperCase
   //const spy = string
-  const spy = console.log(string.toUpperCase)
+  console.log(string.toUpperCase)
 }
 
 
