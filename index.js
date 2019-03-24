@@ -18,8 +18,9 @@ function logShout(string) {
 
 
 function logWhisper(string) {
-  console.log(string)
-  
+  string = string.toLowerCase()
+  const spy = console.log(string)
+
 }
 
 var lower = "I can't hear you!"
