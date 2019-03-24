@@ -12,12 +12,12 @@ function whisper(string)  {
 
 
 function logShout(string) {
- console.log(string.toUpperCase)
+  console.log(string.toUpperCase)
 //const spy = console.log(string1)
 
 }
 
-const spy = logShout('hello')
+const spy = logShout('HELLO')
 
 
 function logWhisper(string) {
