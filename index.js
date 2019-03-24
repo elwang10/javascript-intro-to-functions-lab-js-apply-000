@@ -17,7 +17,7 @@ function logShout(string) {
 
 }
 
-const.spy(logShout('hello'))
+const spy = logShout('hello')
 
 
 function logWhisper(string) {
